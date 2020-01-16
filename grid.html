@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<style>
+    body {
+        margin: 0 auto;
+        font-family: Open Sans;
+    }
+    footer {
+        padding: 20px 0;
+    }
+    .jumbotro {
+    background-color:transparent !important; 
+    }
+    .feature {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .nested {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+</style>
+<title>Bootstrap 101</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+        <div class="jumbotron jumbotron-fluid" id="about">
+            <div class="container">
+                Featured Instrument
+                <br><br>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#image">Image</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#audio">Audio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#video">Video</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="feature tab-content">
+                    <div id="image" class="tab-pane active nested"><br>
+                        <h3>HOME</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div>
+                            <img src="img/img.jpg" class="img-thumbnail" width="480" height="328" />
+                        </div>
+                        <div>
+                            <h1 class="display-5">Kulintang</h1>
+                            <p>Mindanao, Address</p>
+                            <span href="#" class="badge badge-light text-muted">Aerophone</span>
+                            <p>is a modern term for an ancient instrumental form of music composed on a row of small, horizontally laid gongs that function melodically, accompanied by larger, suspended gongs and drums. As part of the larger gong-chime culture of Southeast Asia, kulintang music ensembles have been playing for many centuries in regions of the Eastern Indonesia...</p>
+                            <p class="lead">
+                                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="audio" class="container tab-pane fade"><br>
+                        <h3>Menu 1</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="container">
+                            <img src="img/logo.png" class="img-thumbnail" width="480" height="328" />
+                        </div>
+                    </div>
+                    <div id="video" class="container tab-pane fade"><br>
+                        <h3>Menu 2</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <div class="container">
+                            <img src="img/img.jpg" class="img-thumbnail" width="480" height="328" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  </body>
+</html>

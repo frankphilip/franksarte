@@ -44,20 +44,8 @@ html {
     border-color: transparent;
 }
 
-.banner {
-    text-align: center;
-    background-image: url("img/upbanner.png");
-    position: initial;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    height: 69px;
-    width: 380px;
-}
-
 .bgimg-1 {   
-    background-image: url("img/MeSketch.png");
+    background-image: url("./img/MeSketch.png");
     position: relative;
     opacity: 1;
     background-position: right;

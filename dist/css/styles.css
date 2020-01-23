@@ -45,7 +45,7 @@ html {
 }
 
 .bgimg-1 {   
-    background-image: url("./img/MeSketch.png");
+    background-image: url("img/MeSketch.png");
     position: relative;
     opacity: 1;
     background-position: right;

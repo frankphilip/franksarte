@@ -281,8 +281,6 @@
                     </div>
                 </div>
 
-                <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
-
         <footer class="container-fluid col-12 footer py-3 bg-dark">
             <div class="text-light">
                 <div class="row">
@@ -318,21 +316,6 @@
                 });
             } 
         </script>
-        <script>
-            // When the user scrolls down 20px from the top of the document, slide down the navbar
-            window.onscroll = function() {scrollFunction()};
-            
-            function scrollFunction() {
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("navbar").style.backgroundColor = "#ffffff";
-                document.getElementById("navbar").style.boxShadow = "0 1px 10px #000000";
-                } else {
-                document.getElementById("navbar").style.backgroundColor = "transparent";
-                document.getElementById("navbar").style.boxShadow = "0 0 0 #000000";
-                }
-            }
-        </script>
-                    mybutton = document.getElementById("myBtn");
 
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function() {scrollFunction()};
